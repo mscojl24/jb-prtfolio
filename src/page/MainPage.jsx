@@ -77,7 +77,7 @@ function MainPage() {
       </div>
       <SideBar />
       <Routes>
-        <Route path="*" element={<MainInfo />}></Route>
+        <Route path="/" element={<MainInfo />}></Route>
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/ticat" element={<TicatPage />}></Route>
         <Route path="/uncover" element={<UncoverPage />}></Route>
